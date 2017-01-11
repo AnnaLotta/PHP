@@ -28,5 +28,17 @@ echo '<pre>';
 print_r($sentence2);
 echo '</pre>'
 
+echo '<hr/>';
+// create an object
+$sentence3 = new ctext('Hello coloured text by construct');
+// control object output
+echo '<pre>';
+print_r($sentence3);
+echo '</pre>';
+// show object output
+$sentence3->show();
+$sentence3->setColor("red");
+$sentence3->show();
+echo'<hr/>'
 
 ?>

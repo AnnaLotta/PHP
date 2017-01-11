@@ -20,8 +20,8 @@ class ctext extends text { // ctext begins
     {
         if($this->color === false) {
             parent::show(); // use text class show function
-        }else{
-            echo'<font color="'.$this->color'">'.$this->str'</font><br/>';
+        }else {
+            echo"<font color=".$this->color.">".$this->str."</font><br/>";
         }
 
     }
