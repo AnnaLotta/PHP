@@ -7,7 +7,7 @@
  */
 
 require_once('text.php');
-
+require_once ('ctext.php');
 $sentence = new text();
 echo '<pre>';
 print_r($sentence);
@@ -30,7 +30,7 @@ echo '</pre>';
 
 echo '<hr/>';
 // create an object
-$sentence3 = new ctext('Hello coloured text by construct');
+$sentence3 = new ctext('Hello coloured text by construct.');
 // control object output
 echo '<pre>';
 print_r($sentence3);
