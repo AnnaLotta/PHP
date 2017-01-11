@@ -6,10 +6,13 @@
  * Date: 1/11/2017
  * Time: 2:23 PM
  */
-class text
-{ // text class begins
+class text { // text class begins
         // class variables = instance variables
     var $str = '';
+    // constructor
+    function __construct($s = ''){
+        $this->setText($s);
+    } // construct
 
     // methods
         // set text function
