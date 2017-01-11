@@ -26,7 +26,7 @@ $sentence2 = new text('Hello text by construct.');
 // control object output
 echo '<pre>';
 print_r($sentence2);
-echo '</pre>'
+echo '</pre>';
 
 echo '<hr/>';
 // create an object
