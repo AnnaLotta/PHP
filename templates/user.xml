@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="tolge" value="&lt;?= __('$SELECTION$') ?&gt;" description="tolge" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
